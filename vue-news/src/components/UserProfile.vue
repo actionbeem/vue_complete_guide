@@ -8,12 +8,7 @@
         <slot name="username">
           <!-- 상위 컴포넌트에서 정의할 내용 -->
         </slot>
-        <!-- <div>username: {{ info.id }}</div> -->
-        <!-- <router-link :to="`/user/${userInfo.id}`">
-          {{ userInfo.id }}
-        </router-link> -->
         <p class="time">
-          <!-- time: {{ info.created }} -->
           <slot name="time"></slot>
           <slot name="karma"></slot>
         </p>
